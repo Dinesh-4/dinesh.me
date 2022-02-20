@@ -3,6 +3,7 @@
 
 <head style="background-color:rgb(34,34,34,1) ;">
     <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="google-site-verification" content="r6ocaaPlEsintV5XQ-By4W86pHhdlAByNKfIEs38X7g" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -75,17 +76,82 @@
         .footer{
             background-color:rgb(34,34,34,1) !important;
         }
+        body{
+            background-color:rgb(34,34,34,1) ;
+        }
+        .container-fluid{
+            background-color:rgb(34,34,34,1) ;
+        }
+        .rounded-pill{
+            width:90px; margin-left: 23px; margin-top: 12px;
+        }
+        .container{
+            margin-left: 175px;
+        }
+        hr{
+            width:90%; height:2px ; text-align:left;margin-left:20px; color: #007ced;
+        }
+        @media only screen and (max-width: 500px) {
+            body {
+                background-color:rgb(34,34,34,1);
+                overflow-x: hidden;
+                overflow-y: auto;
+                width: fit-content;
+                touch-action: none;
+                
+            }
+            .rounded-pill{
+                margin-left: 5px;
+            }
+            .navbar-toggler{
+                margin-right: -60px;
+                margin-top: 10px;
+            }
+            .container{
+                margin-left: 10px;
+                width: 400px;
+            }
+            .container .homeprofile{
+                margin-left: 100px;
+
+            }
+            .maincontainer{
+                width: auto;
+              
+            }
+            .home-text h1{
+                margin-left: 75px;
+            }
+            .home-para{
+                margin-left: 13px;
+                width: 400px;
+            }
+            .btn{
+                margin-left: 75px;
+            }
+            hr{
+                width: 400px;
+            }
+            .footer{
+                margin-left: 80px
+            }
+           
+}
+       
+            
     </style>
 
 </head>
 
-<body style="background-color:rgb(34,34,34,1) ;">
+<body >
     <header id="maincontainer" class="maincontainer">
         <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-end">
-            <div style="background-color:rgb(34,34,34,1) ; " class="container-fluid ">
+            <div  class="container-fluid ">
                 <a class="navbar-brand " href="#Home">
-                    <img src="profile.png " alt="dinesh-profile-pic " style="width:90px; margin-left: 23px; margin-top: 12px;" class="rounded-pill ">
+                    
+                    <img src="profile.png " alt="dinesh-profile-pic " class="rounded-pill ">
                     <a style="text-decoration: none; font-size: 46px;" href="#Home">
+
                         <div class="logo-text"><h1>Lazy Coder</h1></div>
                     </a>
                 
@@ -115,7 +181,7 @@
     <section id="Home" class="Home">
         
 
-        <div style = "margin-left: 175px;" class="container">
+        <div  class="container">
             <div class="row flex-v-align flex-direction-reverse ">
                 <div class="col-md-6 col-xs-6 order-md-2 order-lg-2">
                     <div class="image-center">
@@ -129,13 +195,15 @@
                     <div class="home-text">
                         <h1>Dinesh</h1>
                         <div class="home-para">
-                            <p>Started programming at the age of 15, I got a keen interest towards Cyber Security and have explored multiple dimensions of it. As college dropout, I took the road of Entrepreneurship and progressively worked with multiple companies and startups on multiple technologies ranging from software to security to hardware, which gave me a brief exposure towards the industry. You can contact me for a coffee or to get your idea into code or to consult for your software, security or hardware needs.</p>
+                            <p>
+                                Started programming at the age of 15, I got a keen interest towards Cyber Security and have explored multiple dimensions of it. I took the road of Entrepreneurship and progressively worked with multiple companies and startups on multiple technologies ranging from software to security to hardware, which gave me a brief exposure towards the industry. You can contact me for a coffee or to get your idea into code or to consult for your software, security or hardware needs.
+                            </p>
                         </div>
                         <a href="#About" class="btn btn-primary mb-1 btn-secondary btn-outline-light">Know More</a>
                         
                     </div>
                     <br>
-                    <hr style="width:90%; height:2px ; text-align:left;margin-left:20px; color: #007ced;">
+                    <hr>
                 </div>
             </div>
 
